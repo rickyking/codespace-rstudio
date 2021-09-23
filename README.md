@@ -12,4 +12,19 @@ Features:
 
 ## How to setup the codespace-rstudio
 
+Step 1: create a github repo and lauch default codespace
+
+Step 2: in the codespace web or local vscode, create following stucture
+
+```
+├── .devcontainer
+│   ├── devcontainer.json
+│   └── Dockerfile
+└── README.md
+```
+
+Step 3: copy paste the content of [devcontainer.json](devcontainer.json)
+
+Step 4: in `Dockerfile`, just put `FROM rickyking/codespace-rstudio`
+
 ## TODO
